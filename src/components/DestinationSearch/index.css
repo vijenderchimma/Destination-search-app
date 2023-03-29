@@ -1,0 +1,82 @@
+/* Write your CSS here */
+.app-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: 'Roboto';
+}
+.main-heading {
+  color: #000000;
+  font-size: 40px;
+}
+.search-icon-container {
+  background-color: #f1f5f9;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 5px;
+  border-radius: 10px;
+}
+.search-input {
+  background-color: #f1f5f9;
+  border-style: none;
+  height: 30px;
+  outline: none;
+}
+.search-icon {
+  width: 20px;
+  height: 20px;
+}
+.image-content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  width: 80%;
+}
+@media (min-width: 768px) {
+  .app-container {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Roboto';
+  }
+  .main-heading {
+    color: #000000;
+    font-size: 40px;
+  }
+  .search-icon-container {
+    background-color: #f1f5f9;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5px;
+    border-radius: 10px;
+  }
+  .search-input {
+    background-color: #f1f5f9;
+    border-style: none;
+    height: 30px;
+    outline: none;
+  }
+  .search-icon {
+    width: 20px;
+    height: 20px;
+  }
+  .image-content-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    width: 600px;
+    flex-wrap: wrap;
+  }
+}
